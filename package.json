@@ -2,7 +2,7 @@
     "name": "my-awesome-package",
     "version": "1.0.0",
     "scripts": {
-    "build": "npm run # --output"
+    "build": "npm run # --output public"
   },
   
   "devDependencies": {
