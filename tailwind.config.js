@@ -18,6 +18,5 @@ module.exports = {
             'blue': '#88B0BC',
             neutral: colors.neutral,
         }
-    },
-    plugins: [],
+    }
   }
