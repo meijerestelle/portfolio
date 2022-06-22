@@ -1,4 +1,8 @@
 { 
+  "scripts": {
+    "build": "npm run build --output public"
+  },
+
   "devDependencies": {
     "tailwindcss": "^3.1.3"
   }
