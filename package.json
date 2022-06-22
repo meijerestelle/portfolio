@@ -1,6 +1,6 @@
 { 
   "scripts": {
-    "build": "npm run --output public"
+    "build": "next build --output public"
   },
 
   "devDependencies": {
