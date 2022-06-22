@@ -1,9 +1,10 @@
 { 
   "scripts": {
-    "build": "next build --output public"
+    "build": "npm build --output public"
   },
 
   "devDependencies": {
     "tailwindcss": "^3.1.3"
   }
 }
+
