@@ -16,6 +16,7 @@ module.exports = {
             'black': '#191919',
             'darkblue': '#3E646F',
             'blue': '#88B0BC',
+            'link': '#1D7996',
             neutral: colors.neutral,
         }
     }
