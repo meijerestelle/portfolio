@@ -14,9 +14,9 @@
         <a class="" href="index.html">Estèlle Meijer</a>
         
         <div class=" text-right justify-end flex flex-row sm:flex-row gap-2 sm:gap-4">
-            <a class="text-end" id="work" href="#">work</a>
+            <a class="text-end hover:text-link" id="work" href="#work-section">work</a>
             <p> / </p>
-            <a class="text-end" id="work" href="#">about</a>
+            <a class="text-end hover:text-link" id="work" href="#about-section">about</a>
             <!-- <a class="text-end" id="work" href="#">contact</a> -->
         </div>
     </header>
@@ -30,7 +30,7 @@
         </div>
     </div>
 
-    <div class="bg-white p-8 md:p-12 lg:px-20 xl:px-32 2xl:px-40">
+    <div id="work-section" class="bg-white p-8 md:p-12 lg:px-20 xl:px-32 2xl:px-40">
         <div class=" mb-4 text-xl sm:text-2xl md:text-3xl flex justify-between">
             <h2 class="">Work</h2>
             <div class="flex flex-row gap-1">
@@ -42,57 +42,65 @@
         </div>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-8">
-            <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
-                <img class="" src="img/plantjewater.png">
-                <div class="px-4 py-2">
-                    <h2 class="text-xl">
-                        PlantjeWater
-                    </h2>
-                    <p class="text-neutral-500">
-                        2022
-                    </p>
+            <a class="" href="projects/PlantjeWater.html">
+                <div class="shadow-lg hover:bg-black hover:text-white transition-colors overflow-hidden">
+                    <img class="" src="img/plantjewater.png">
+                    <div class="px-4 py-2">
+                        <h2 class="text-xl">
+                            PlantjeWater
+                        </h2>
+                        <p class="text-neutral-500">
+                            2022
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
-                <img class=""src="img/denhelder.png">
-                <div class="px-4 py-2">
-                    <h2 class="text-xl">
-                        Redesign Gemeente Den Helder
-                    </h2>
-                    <p class="text-neutral-500">
-                        2022
-                    </p>
+            <a href="projects/DenHelder.html">
+                <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
+                    <img class=""src="img/denhelder.png">
+                    <div class="px-4 py-2">
+                        <h2 class="text-xl">
+                            Redesign Gemeente Den Helder
+                        </h2>
+                        <p class="text-neutral-500">
+                            2022
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
-                <img class="" src="img/abi.png">
-                <div class="px-4 py-2">
-                    <h2 class="text-xl">
-                        Abi
-                    </h2>
-                    <p class="text-neutral-500">
-                        2022
-                    </p>
+            <a href="projects/Abi.html">
+                <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
+                    <img class="" src="img/abi.png">
+                    <div class="px-4 py-2">
+                        <h2 class="text-xl">
+                            Abi
+                        </h2>
+                        <p class="text-neutral-500">
+                            2022
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
 
-            <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
-                <img class="" src="img/boh.png">
-                <div class="px-4 py-2">
-                    <h2 class="text-xl">
-                        Bring Otto Home
-                    </h2>
-                    <p class="text-neutral-500">
-                        2022
-                    </p>
+            <a href="projects/BringOttoHome.html">
+                <div class="bg-white shadow-lg hover:bg-black hover:text-white transition-colors">
+                    <img class="" src="img/boh.png">
+                    <div class="px-4 py-2">
+                        <h2 class="text-xl">
+                            Bring Otto Home
+                        </h2>
+                        <p class="text-neutral-500">
+                            2022
+                        </p>
+                    </div>
                 </div>
-            </div>
+            </a>
         </div>
     </div>
 
-    <div class="p-8 md:p-12 lg:p-20 xl:px-32 2xl:px-40">
+    <div id="about-section" class="p-8 md:p-12 lg:p-20 xl:px-32 2xl:px-40">
         <div class="mb-2 flex justify-between">
             <h2 class=" text-xl sm:text-2xl md:text-3xl">About</h2>
         </div>
@@ -109,7 +117,7 @@
                     I believe conversation with others helps you broaden your vision, and helps you create better products.
                 </p> -->
                 <p>
-                    Always being interested in every topic ever, I found my passion for digital design during my studies Communication and Multimedia Design at NHL Stenden. Where I started learning front-end development.
+                    Always being interested in every topic ever, I found my passion for digital design during my studies Communication and Multimedia Design at NHL Stenden, where I started out with learning front-end development.
                 </p>
                 <p>
                     Being enthousiastic about human interaction and research, I now aim to grow as a UX/UI designer, making informed products using the user's input. Incorporating my experience of front-end development.
@@ -125,11 +133,11 @@
         <h2 class="text-2xl md:text-3xl mb-3 ">Contact</h2>
 
         <div class="font-inter font-light sm:text-xl">
-            <a href="https://www.linkedin.com/in/est%C3%A8lle-meijer/">linkedin</a>
+            <a class=" hover:text-link" href="https://www.linkedin.com/in/est%C3%A8lle-meijer/">linkedin</a>
             <br>
-            <a href="mailto:meijerestelle@gmail.com">email</a>
+            <a class=" hover:text-link" href="mailto:meijerestelle@gmail.com">email</a>
             <br>
-            <a href="https://read.cv/estellemeijer">curriculum vitae</a>
+            <a class=" hover:text-link" href="https://read.cv/estellemeijer">curriculum vitae</a>
         </div>
     </div>
 
