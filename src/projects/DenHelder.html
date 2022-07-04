@@ -11,10 +11,10 @@
   <link href="../output.css" rel="stylesheet">
 </head>
 <body class="bg-offwhite text-black font-manrope font-light">
-    <header class="w-screen top-0 px-8 py-4 md:px-12 md:py-8 lg:px-20 lg:py-8 xl:px-32 2xl:px-40 bg-offwhite fixed flex justify-between bg-opacity-40 backdrop-blur-lg text-xl sm:text-2xl md:text-3xl lg:text-3xl font-regular">
+    <header class="w-screen top-0 px-8 py-4 md:px-12 md:py-8 lg:px-20 lg:py-8 xl:px-32 2xl:px-40 bg-offwhite fixed flex justify-between bg-opacity-40 backdrop-blur-lg text-xl sm:text-2xl md:text-3xl lg:text-3xl">
         <a class="" href="../index.html">Estèlle Meijer</a>
 
-        <div class=" text-right justify-end flex flex-row sm:flex-row gap-2 sm:gap-4">
+        <div class="text-rightjustify-end flex flex-row sm:flex-row gap-2 sm:gap-4">
             <a class="" id="work" href="../index.html#work-section"><span class="link link-underline link-underline-black text-black">work</span></a>
             <p> / </p>
             <a class="" id="about" href="../index.html#about-section"><span class="link link-underline link-underline-black text-black">about</span></a>
@@ -22,56 +22,87 @@
         </div>
     </header>
 
-    <div class="w-screen p-8 sm:mt-28 text-xl sm:text-2xl md:text-3xl lg:text-3xl font-regular mb-8">
-        <div class="md:w-3/4 lg:w-2/3 m-auto">
+    <div class="w-screen p-8 mt-12 sm:mt-28 text-xl sm:text-2xl md:text-3xl lg:text-3xl font-regular">
+        <div class="md:w-3/4 lg:w-2/3 2xl:w-1/2 m-auto">
             <div class="">
-                <div class="text-xl sm:text-2xl md:text-3xl flex flex-row justify-between text-medium">
-                    <h2 class="w-3/4">
-                        Den Helder Redesign
+                <div class="text-2xl sm:text-3xl md:text-4xl flex flex-row justify-between">
+                    <h2 class="w-4/5">
+                        Gemeente Den Helder
                     </h2>
-                    <h2 class="1/4">
+                    <h2 class="">
                         2022
                     </h2>
                 </div>
 
                 <div class="mt-4 aspect-[2/1] overflow-hidden bg-cover" style="background-image: url('../img/dh-header.png');"></div>
 
-                <div class="mt-4 flex flex-col justify-between ">
-                    <h3 class="">Roles</h3>
-                        <div class="flex flex-col mt-2 gap-1.5 text-base">
-                            <p><i class="bi bi-chevron-right"></i> Research</p>
-                            <p><i class="bi bi-chevron-right"></i> UX design</p>
-                            <p><i class="bi bi-chevron-right"></i> UI design</p>
-                            <p><i class="bi bi-chevron-right"></i> User testing</p>
+                <div class="mt-4 flex flex-col">
+                    <h3 class="text-2xl sm:text-2xl md:text-3xl">Roles</h3>
+                        <div class="flex flex-col sm:flex-row mt-2 gap-1.5 sm:gap-8 text-base text-neutral-700">
+                            <p>// Research</p>
+                            <p>// UX design</p>
+                            <p>// UI design</p>
                         </div>
                 </div>
 
+                <!-- header uitprobeersel -->
+                <!-- <div class="flex flex-col md:flex-row-reverse gap-8">
+                    <div class="w-1/2 aspect-[3/1] overflow-hidden bg-cover" style="background-image: url('../img/dh-header.png');"></div>
+
+                    <div class="w-1/2 flex-col justify-around">
+                        <div class="text-2xl sm:text-3xl md:text-4xl flex flex-col justify-between">
+                            <h2 class="w-4/5">
+                                Gemeente Den Helder
+                            </h2>
+                            <h2 class="">
+                                -- 2022
+                            </h2>
+                        </div>
+
+                        <div class="mt-4 flex flex-col">
+                            <h3 class="text-2xl sm:text-2xl md:text-3xl">Roles</h3>
+                                <div class="flex flex-col mt-2 gap-1.5 text-base text-neutral-700">
+                                    <p><i class="bi bi-dot"></i> Research</p>
+                                    <p><i class="bi bi-dot"></i> UX design</p>
+                                    <p><i class="bi bi-dot"></i> UI design</p>
+                                    <p><i class="bi bi-dot"></i> User testing</p>
+                                </div>
+                        </div>
+                    </div>
+                </div> -->
+
                 <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Situation</h3>
-                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                    <div class="flex flex-col mt-2 gap-2 text-base text-neutral-700 leading-relaxed">
                         <p>The existing website of the municipality of Den Helder did not meet the accessibility guidelines as stated by the WCAG, with complications mostly existing for people using screenreaders.</p>
                         <p>This redesign was unsolicited, which took place in a span of 2 weeks, with the end goal of getting the main problems clear, and proposing a solution.</p>
                     </div>
                 
                 <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Problem</h3>
-                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                    <div class="flex flex-col mt-2 gap-2 text-base text-neutral-700 leading-relaxed">
                         <p>People with visual impairments navigate through websites guided by a screenreader. In order to understand the structure and levels of the page, the screenreader will also read aloud the tag elements, such as the levels of heading, before reading the actual heading.</p>
                         <p>Besides this, the navigation structure proved to be chaotic for users, as was the case during the orientational testing of the existing website.</p>
                         <p>But most importantly in terms of accessibility, the accessibility tool provided by the website was not easily available, and fell behind other contents of the navigation bar.</p>
                     </div>
 
-                <div class="my-8 aspect-[1/1] overflow-hidden bg-cover" style="background-image: url('../img/denhelder.png');"></div>
+                <div class="my-8 grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div class="aspect-[1/1] overflow-hidden bg-cover" style="background-image: url('../img/denhelder.png');"></div>
+                    <div class="aspect-[1/1] overflow-hidden bg-cover" style="background-image: url('../img/denhelder.png');"></div>
+                </div>
+
                 <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Action</h3>
-                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                    <div class="flex flex-col mt-2 gap-2 text-base text-neutral-700 leading-relaxed">
                         <p>For the redesign regarding the content, the focus was set on making information easily findable. The original list of all subjects available (containing 14 items) was sorted alphabetically, which would mean having to skip through 13 irrelevant subjects in order to arrive at &lsquo;zorg&rsquo; ((health-)care), which would have taken a lot of time for someone using a screenreader.</p>
                         <p>To make the accessibility features more accessible initially, these will be displayed in a seperate header.</p>
                     </div>
 
                 <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Result</h3>
-                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                    <div class="flex flex-col mt-2 gap-2 text-base text-neutral-700 leading-relaxed">
                         <p>We divided the subject overview on the homepage into different themes, as to make it easer to skip to the theme relevant to the subject the user is looking for.</p>
                         <p>Further, the accessibility features will be available constantly, also after scrolling in a high contrast header with clarifying icons.</p>
                         <p>During the process of redesigning, we constantly checked for contrast accessibility for all the types of color blindness.</p>
                     </div>
+
+                <div class="my-8 aspect-[2/1] overflow-hidden bg-cover" style="background-image: url('../img/denhelder.png');"></div>
             </div>
         </div>
     </div>
