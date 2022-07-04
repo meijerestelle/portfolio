@@ -636,6 +636,14 @@ video {
   flex-grow: 1;
 }
 
+.scroll-pt-8 {
+  scroll-padding-top: 2rem;
+}
+
+.scroll-pt-12 {
+  scroll-padding-top: 3rem;
+}
+
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
@@ -970,6 +978,10 @@ video {
 @media (min-width: 1024px) {
   .lg\:w-2\/3 {
     width: 66.666667%;
+  }
+
+  .lg\:scroll-pt-16 {
+    scroll-padding-top: 4rem;
   }
 
   .lg\:p-20 {
