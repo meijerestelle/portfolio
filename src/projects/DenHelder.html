@@ -1,0 +1,125 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+  <link href="../output.css" rel="stylesheet">
+</head>
+<body class="bg-offwhite text-black font-manrope font-light">
+    <header class="w-screen top-0 px-8 py-4 md:px-12 md:py-8 lg:px-20 lg:py-8 xl:px-32 2xl:px-40 bg-offwhite fixed flex justify-between bg-opacity-40 backdrop-blur-lg text-xl sm:text-2xl md:text-3xl lg:text-3xl font-regular">
+        <a class="" href="index.html">Estèlle Meijer</a>
+
+        <div class=" text-right justify-end flex flex-row sm:flex-row gap-2 sm:gap-4">
+            <a class="" id="work" href="index.html#work-section"><span class="link link-underline link-underline-black text-black">work</span></a>
+            <p> / </p>
+            <a class="" id="about" href="index.html#about-section"><span class="link link-underline link-underline-black text-black">about</span></a>
+            <!-- <a class="text-end" id="work" href="#">contact</a> -->
+        </div>
+    </header>
+
+    <div class="w-screen p-8 sm:mt-28 text-xl sm:text-2xl md:text-3xl lg:text-3xl font-regular mb-8">
+        <div class="md:w-3/4 lg:w-2/3 m-auto">
+            <div class="">
+                <div class="text-xl sm:text-2xl md:text-3xl flex flex-row justify-between text-medium">
+                    <h2 class="w-3/4">
+                        Den Helder Redesign
+                    </h2>
+                    <h2 class="1/4">
+                        2022
+                    </h2>
+                </div>
+
+                <div class="mt-4 aspect-[2/1] overflow-hidden bg-cover" style="background-image: url('../img/dh-header.png');"></div>
+
+                <div class="mt-4 flex flex-col justify-between ">
+                    <h3 class="">Roles</h3>
+                        <div class="flex flex-col mt-2 gap-1.5 text-base">
+                            <p><i class="bi bi-chevron-right"></i> Research</p>
+                            <p><i class="bi bi-chevron-right"></i> UX design</p>
+                            <p><i class="bi bi-chevron-right"></i> UI design</p>
+                            <p><i class="bi bi-chevron-right"></i> User testing</p>
+                        </div>
+                </div>
+
+                <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Situation</h3>
+                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                        <p>The existing website of the municipality of Den Helder did not meet the accessibility guidelines as stated by the WCAG, with complications mostly existing for people using screenreaders.</p>
+                        <p>This redesign was unsolicited, which took place in a span of 2 weeks, with the end goal of getting the main problems clear, and proposing a solution.</p>
+                    </div>
+                
+                <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Problem</h3>
+                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                        <p>People with visual impairments navigate through websites guided by a screenreader. In order to understand the structure and levels of the page, the screenreader will also read aloud the tag elements, such as the levels of heading, before reading the actual heading.</p>
+                        <p>Besides this, the navigation structure proved to be chaotic for users, as was the case during the orientational testing of the existing website.</p>
+                        <p>But most importantly in terms of accessibility, the accessibility tool provided by the website was not easily available, and fell behind other contents of the navigation bar.</p>
+                    </div>
+
+                <div class="my-8 aspect-[1/1] overflow-hidden bg-cover" style="background-image: url('../img/denhelder.png');"></div>
+                <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Action</h3>
+                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                        <p>For the redesign regarding the content, the focus was set on making information easily findable. The original list of all subjects available (containing 14 items) was sorted alphabetically, which would mean having to skip through 13 irrelevant subjects in order to arrive at &lsquo;zorg&rsquo; ((health-)care), which would have taken a lot of time for someone using a screenreader.</p>
+                        <p>To make the accessibility features more accessible initially, these will be displayed in a seperate header.</p>
+                    </div>
+
+                <h3 class="mt-4 text-xl sm:text-2xl md:text-3xl lg:text-3xl">Result</h3>
+                    <div class="flex flex-col mt-2 gap-2 text-base leading-relaxed">
+                        <p>We divided the subject overview on the homepage into different themes, as to make it easer to skip to the theme relevant to the subject the user is looking for.</p>
+                        <p>Further, the accessibility features will be available constantly, also after scrolling in a high contrast header with clarifying icons.</p>
+                        <p>During the process of redesigning, we constantly checked for contrast accessibility for all the types of color blindness.</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bg-black p-8 md:p-12 lg:px-20 xl:px-32 2xl:px-40 text-white">
+        <h2 class="text-2xl md:text-3xl mb-3 ">Contact</h2>
+
+        <div class="font-inter font-light sm:text-xl flex flex-col leading-4 gap-2">
+            <a class="" target="_blank" href="https://www.linkedin.com/in/est%C3%A8lle-meijer/">
+                <span class="link link-underline link-underline-white"><i class="bi bi-arrow-up-right pr-2" style="font-size: 1rem;"></i>linkedin
+                </span></a>
+            <a class="" target="_blank" href="mailto:meijerestelle@gmail.com">
+                <span class="link link-underline link-underline-white"><i class="bi bi-arrow-up-right pr-2" style="font-size: 1rem;;"></i>email
+                </span></a>
+            <a class="" target="_blank" href="https://read.cv/estellemeijer">
+                <span class="link link-underline link-underline-white"><i class="bi bi-arrow-up-right pr-2" style="font-size: 1rem;;"></i>curriculum vitae</i>
+                </span></a>
+        </div>
+    </div>
+
+    <style> 
+        .link-underline {
+            border-bottom-width: 0;
+            background-image: linear-gradient(transparent, transparent), linear-gradient(#f2f2f2, #f2f2f2f2);
+            background-size: 0 0.1rem;
+            background-position: 0 100%;
+            background-repeat: no-repeat;
+            transition: background-size .5s ease-in-out;
+        }
+    
+        .link-underline-black {
+            background-image: linear-gradient(transparent, transparent), linear-gradient(#191919, #191919)
+        }
+
+        .link-underline-white {
+            background-image: linear-gradient(transparent, transparent), linear-gradient(#f2f2f2, #f2f2f2)
+        }
+    
+        .link-underline:hover {
+            background-size: 100% 0.1rem;
+            background-position: 0 100%
+        }
+    </style>
+
+    <script
+        src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>
