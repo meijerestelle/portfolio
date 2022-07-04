@@ -6,6 +6,7 @@ module.exports = {
         extend: {
             aspectRatio: {
               '2/1': '2 / 1',
+              '1/1': '1 / 1',
             },
             fontFamily: {
                 'manrope' : ['Manrope', 'sans-serif'],
